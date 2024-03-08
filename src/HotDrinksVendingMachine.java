@@ -14,6 +14,7 @@ public class HotDrinksVendingMachine implements VendingMachine {
         for (BottleDrink drink : listDrinks) {
             if (drink.getName().equals(name) && drink.getVolume() == volume && ((HotDrink) drink).getTemperature() == temperature)
                 System.out.println(drink);
+                
         }
     }
 
